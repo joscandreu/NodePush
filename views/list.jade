@@ -1,0 +1,20 @@
+h1= title
+p Welcome to #{title}
+h2 Devices
+table.table.table-striped
+        thead
+            tr
+                th Token
+                th System
+                th Badge
+                th Data
+                th Notify
+        tbody
+            each device in devices
+                tr
+                    td= device.token
+                    td= device.system
+                    td= device.badge
+                    td= device.data
+                    td
+                        input(type = "button", class="btn", onClick="javascript:window.location='notify/" + device.token + "';", value="Notify")

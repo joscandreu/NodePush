@@ -1,0 +1,12 @@
+{
+    "name": "NodePush"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "express": "2.5.8"
+    , "jade": ">= 0.0.1"
+    , "apn": "1.2.3"
+    , "c2dm": "1.1.0"
+    , "mongoose": "2.7.0"
+  }
+}
